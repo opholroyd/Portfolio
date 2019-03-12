@@ -20,14 +20,8 @@ body {
   height: 2em;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end; 
   align-items: center;
-}
-
-.name {
-  margin: 0;
-  font-size: 20px;
-  font-weight: 500;
 }
 
 .navbar {
@@ -59,6 +53,34 @@ body {
   margin: 10px;
   font-size: 25px;
   text-shadow: 2px 2px 4px #000000;
+}
+
+.name {
+  margin: 0;
+  font-weight: 500;
+}
+
+.name-type p {
+  font-size: 3em;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .10em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 3s steps(30, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
 }
 
 .social {
@@ -112,13 +134,14 @@ body {
 }
 
 .footer {
-  height: 300px;
+  height: 30px;
   background-color: #5d5d5d;
 }
 
 @media (max-width: 600px) {
-  .name {
-    display: none;
+
+  .name-type p {
+    font-size: 0.7em
   }
 
   .nav {
