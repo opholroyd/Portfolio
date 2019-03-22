@@ -26,12 +26,6 @@
     color: #ffffff;
   }
 
-  .title {
-    width: 100%;
-    height: 3em;
-    text-align: center;
-  }
-
   .container {
       display: flex;
       height: 100%;
@@ -50,15 +44,29 @@
   }
 
   .cv-download {
+    width: 175px;
+    height: 30px;
     margin: 10px;
     border-radius: 5px;
     color: white;
     background-color: green;
   }
 
+  .cv-download a{
+    color: white;
+    text-decoration: none;
+  }
+
   .cv {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
     margin: 10px;
     width: 80%;
     height: 80vh;
-    background-color: #ffffff;
+  }
+
+  .pdf {
+    width: inherit;
+    height: inherit;
   }
