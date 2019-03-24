@@ -159,10 +159,15 @@ body {
   display: grid;
   width: 100%;
   height: 100%;
-  grid-template-areas: "img-1 img-2 img-3 img-4"
-  "img-5 img-6 img-7 img-8";
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "img-1"
+  "img-2"
+  "img-3"
+  "img-4"
+  "img-5" 
+  "img-6" 
+  "img-7" 
+  "img-8";
+
 }
 .container > div {
   border: 1px dashed #888;
@@ -194,8 +199,6 @@ body {
 }
 
 .image {
-  width: 100%;
-  height: 100vh;
   display: none;
   justify-content: center;
 }
@@ -213,8 +216,6 @@ body {
 }
 
 .wam-title {
-  margin: 10px;
-  width: 100%;
   text-align: center;
 }
 
@@ -225,8 +226,6 @@ body {
 }
 
 .todo-title {
-  margin: 10px;
-  width: 100%;
   text-align: center;
 }
 
@@ -237,8 +236,6 @@ body {
 }
 
 .key-title {
-  margin: 10px;
-  width: 100%;
   text-align: center;
 }
 
@@ -249,8 +246,6 @@ body {
 }
 
 .drum-title {
-  margin: 10px;
-  width: 100%;
   text-align: center;
 }
 
@@ -261,8 +256,6 @@ body {
 }
 
 .calc-title {
-  margin: 10px;
-  width: 100%;
   text-align: center;
 }
 
@@ -333,7 +326,7 @@ body {
   }
 
   .name-type p {
-    font-size: 2em
+    font-size: 1em
   }
 
   .nav {
@@ -352,15 +345,15 @@ body {
 
   .avatar {
     background-image: url('./images/avatar.png');
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
     margin: 10px;
     border: 2px solid #4365e0;
     border-radius: 50%;
     animation: fadeIn 5s;
   }
 
-  .container {
+  /* .container {
     display: grid;
     width: 100%;
     height: 100%;
@@ -368,6 +361,6 @@ body {
     "img-5 img-6 img-7 img-8";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-  }
+  } */
 }
 
