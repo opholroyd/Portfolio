@@ -141,8 +141,8 @@ body {
 
 .h1textCenter {
   text-align: center;
-  padding: 10px;
-  margin-top: 30px;
+  padding: 30px;
+  margin-top: 50px;
   font-size: 3em;
 }
 
@@ -181,6 +181,15 @@ body {
   font-size: 2em;
 }
 
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .project-title {
   margin-top: 30px;
   text-align: center;
@@ -188,120 +197,8 @@ body {
 
 }
 
-
-
-.container {
-  display: grid;
-  width: 100%;
-  height: 100%;
-  grid-template-areas: "img-1"
-    "img-2"
-    "img-3"
-    "img-4"
-    "img-5"
-    "img-6"
-    "img-7"
-    "img-8";
-
-}
-
-.img-1 {
-  grid-area: img-1;
-}
-
-.img-2 {
-  grid-area: img-2;
-}
-
-.img-3 {
-  grid-area: img-3;
-}
-
-.img-4 {
-  grid-area: img-4;
-}
-
-.img-5 {
-  grid-area: img-5;
-}
-
-.img-6 {
-  grid-area: img-6;
-}
-
-.img-7 {
-  grid-area: img-7;
-}
-
-.img-8 {
-  grid-area: img-8;
-}
-
-.image {
-  display: none;
-  justify-content: center;
-}
-
-.dg-title {
-  margin: 10px;
-  width: 100%;
-  text-align: center;
-}
-
-.dg-title a {
-  text-decoration: none;
-  color: white;
-  text-shadow: 2px 2px 4px purple;
-}
-
-.wam-title {
-  text-align: center;
-}
-
-.wam-title a {
-  text-decoration: none;
-  color: white;
-  text-shadow: 2px 2px 4px purple;
-}
-
-.todo-title {
-  text-align: center;
-}
-
-.todo-title a {
-  text-decoration: none;
-  color: white;
-  text-shadow: 2px 2px 4px purple;
-}
-
-.key-title {
-  text-align: center;
-}
-
-.key-title a {
-  text-decoration: none;
-  color: white;
-  text-shadow: 2px 2px 4px purple;
-}
-
-.drum-title {
-  text-align: center;
-}
-
-.drum-title a {
-  text-decoration: none;
-  color: white;
-  text-shadow: 2px 2px 4px purple;
-}
-
-.calc-title {
-  text-align: center;
-}
-
-.calc-title a {
-  text-decoration: none;
-  color: white;
-  text-shadow: 2px 2px 4px purple;
+.projectCont {
+  margin: 20px
 }
 
 .footer {
