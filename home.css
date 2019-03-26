@@ -291,18 +291,6 @@ body {
   text-shadow: 0.5px 0.5px 1px #000000;
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  height: auto;
-  background-color: #bfbfbf;
-  color: #6a6a6a;
-}
-
-.footer p {
-  padding: 3px 0 3px 0;
-}
-
 @keyframes pulse {
   from {
     -webkit-transform: scale3d(1, 1, 1);
@@ -391,7 +379,6 @@ body {
     height: 100px;
     width: 100px;
     margin: 10px;
-
     border-radius: 50%;
     animation: fadeIn 5s;
   }
