@@ -28,7 +28,6 @@ body {
     text-decoration: none;
     color: #ffffff;
     margin: 10px;
-   
 }
 
 .header a:hover {
@@ -56,7 +55,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 30px;
+    height: 50px;
     margin-bottom: 20px;
 }
 
@@ -65,8 +64,8 @@ body {
 }
 
 .icons {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     filter: invert(100%);
 }
 
