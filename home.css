@@ -7,12 +7,17 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: 'Montserrat', sans-serif;
+ 
+}
+
+.canvas {
+  width: 100%;
+  height: 100vh;
   color: #ffffff;
   background-image: url("./images/background.jpg");
   background-repeat: no-repeat;
-  background-color: #00001b;
+  background-color: #929292;
 }
-
 /* :root {} */
 
 .nav {
@@ -22,22 +27,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-
-.contact {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: baseline;
-}
-
-.contact-img {
-  margin-left: 5px;
-  height: 1.5em;
-  width: 1.5em;
-  background-image: url("./images/contact-2.png");
-  background-size: contain;
-  filter: invert(100%);
 }
 
 .nav a {
@@ -141,8 +130,7 @@ body {
   justify-content: center;
   flex-direction: row-reverse;
   width: 100%;
-  height: 30px;
-  margin-bottom: 20px;
+  height: 50px;
 }
 
 .social a {
@@ -150,8 +138,8 @@ body {
 }
 
 .icons {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   filter: invert(100%);
 }
 
@@ -326,7 +314,7 @@ body {
   }
 
   .name-type p {
-    font-size: 1em
+    font-size: 2em
   }
 
   .nav {
@@ -345,8 +333,8 @@ body {
 
   .avatar {
     background-image: url('./images/avatar.png');
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 100px;
     margin: 10px;
     border: 2px solid #4365e0;
     border-radius: 50%;
