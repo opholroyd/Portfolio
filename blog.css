@@ -32,6 +32,8 @@ body {
     font-size: 3.5em;
     margin: 0;
     font-family: 'Pacifico', cursive;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #000000;
 }
 
 .subHead {
@@ -53,4 +55,15 @@ body {
 .navbar a {
     text-decoration: none;
     margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .name {
+        padding: 20px;
+        font-size: 2em;
+        margin: 0;
+        font-family: 'Pacifico', cursive;
+        color: #ffffff;
+        text-shadow: 1px 1px 2px #000000;
+    }
 }
